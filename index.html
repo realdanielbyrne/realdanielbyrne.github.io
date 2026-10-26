@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Byrne — CTO, AI Platforms &amp; Agent Infrastructure</title>
+<meta name="description" content="Daniel Byrne is a hands-on technology executive with 25+ years across embedded hardware, enterprise software, and cloud SaaS. CTO of RPMx Construction; builds AI agent platforms and the systems a business runs on.">
+<meta property="og:title" content="Daniel Byrne — CTO, AI Platforms &amp; Agent Infrastructure">
+<meta property="og:description" content="Hands-on technology executive. Builds AI agent platforms and the systems a business runs on.">
+<meta property="og:type" content="profile">
+<style>
+:root{--bg:#fbfaf7;--fg:#1c1e21;--muted:#5f6670;--line:#e4e1d8;--card:#fff;--accent:#b4531a}
+@media (prefers-color-scheme:dark){:root{--bg:#14161a;--fg:#e9e7e1;--muted:#9aa1ab;--line:#2a2e35;--card:#1b1e23;--accent:#e8955a}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+main{max-width:860px;margin:0 auto;padding:64px 24px 80px}
+h1{font-size:2.6rem;line-height:1.15;margin:0 0 6px;letter-spacing:-.02em}
+h2{font-size:.82rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin:56px 0 18px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:1.05rem;margin:0 0 4px}
+.tag{font-size:1.2rem;color:var(--muted);margin:0 0 20px}
+.links{display:flex;flex-wrap:wrap;gap:8px 20px;margin:20px 0 0;padding:0;list-style:none;font-size:.95rem}
+.lead{font-size:1.08rem;margin:24px 0 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:32px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.stat b{display:block;font-size:1.6rem;letter-spacing:-.02em;color:var(--accent)}
+.stat span{font-size:.88rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:16px}
+@media (max-width:480px){.grid{grid-template-columns:1fr}h1{font-size:2.1rem}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.card p{margin:6px 0 0;font-size:.95rem;color:var(--muted)}
+.card .meta{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin-bottom:2px}
+ul.work{padding-left:1.1rem;margin:10px 0 0}
+ul.work li{margin:6px 0}
+.role{margin:0 0 30px}
+.role .when{color:var(--muted);font-size:.9rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.chips span{font-size:.85rem;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:3px 12px}
+dl{margin:0}dt{font-weight:600;margin-top:16px}dd{margin:2px 0 0;color:var(--muted)}
+footer{margin-top:64px;font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Daniel Byrne</h1>
+  <p class="tag">Chief Technology Officer · AI Platforms &amp; Agent Infrastructure</p>
+  <ul class="links">
+    <li><a href="https://github.com/realdanielbyrne">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/danielbyrne">LinkedIn</a></li>
+    <li><a href="mailto:realdanielbyrne@icloud.com">realdanielbyrne@icloud.com</a></li>
+    <li>Frisco, Texas</li>
+  </ul>
+  <p class="lead">I'm a hands-on technology executive with 25+ years across embedded hardware, enterprise software, and cloud SaaS. At <strong>RPMx Construction</strong>, a heavy-civil contractor, I started the technology function as its only member, built the platform the business runs on, and now lead its move to AI-native operations. I build the agent infrastructure myself and judge it by business results: lower costs, fewer manual hours, and a back office that scales without adding headcount.</p>
+  <div class="stats">
+    <div class="stat"><b>25+ yrs</b><span>hardware, enterprise software, SaaS</span></div>
+    <div class="stat"><b>1 → 9</b><span>technology team grown from one person</span></div>
+    <div class="stat"><b>483</b><span>features shipped to nine departments in 15 weeks</span></div>
+    <div class="stat"><b>99.6%</b><span>AI extraction accuracy at about ½¢ per document</span></div>
+  </div>
+</header>
+
+<section>
+  <h2>What I've built at RPMx</h2>
+  <div class="grid">
+    <div class="card"><div class="meta">AI &amp; agents</div><h3>Agent platform</h3>
+      <p>An MCP tool layer generated from a single OpenAPI contract, with one tool per API operation, and a production agent built on the Claude Agent SDK. The agent reads vendor quotes, invoices, and statements, and drafts purchase orders, work orders, and AP invoices, always inside each user's own ERP and Microsoft 365 permissions.</p></div>
+    <div class="card"><div class="meta">AI &amp; agents</div><h3>Benchmarked LLM extraction</h3>
+      <p>Evaluated models on real production statements, then moved to the one that tied for best accuracy, ran fastest, and cost about half a cent per document. Added multi-model fallback and a PDF-text grounding check after A/B tests exposed silent empty extractions.</p></div>
+    <div class="card"><div class="meta">AI &amp; agents</div><h3>Private inference</h3>
+      <p>Fine-tuned and deployed a 70B Llama 3.1 model on self-built GPU hardware so sensitive documents never leave the company network.</p></div>
+    <div class="card"><div class="meta">Platform</div><h3>MoveEarth field platform</h3>
+      <p>An offline-first SwiftUI/SwiftData iOS app and a Next.js 15 / React 19 web app, sharing a contract-first Azure Functions API over the ERP. API Management publishes from one OpenAPI spec, and CI blocks any endpoint the gateway is missing.</p></div>
+    <div class="card"><div class="meta">Platform</div><h3>Test-first delivery</h3>
+      <p>Doubled the implementation rate without adding staff through a CI-required, test-first workflow: 7,000+ automated API tests and AI code review on every pull request. The web app replaced 10+ Power BI reports.</p></div>
+    <div class="card"><div class="meta">Platform</div><h3>Integration hub</h3>
+      <p>Primary developer of a .NET 9 integration layer connecting the ERP, payroll, estimating, and equipment-OEM telematics. Its reconciliations save about 220 employee-days a year.</p></div>
+    <div class="card"><div class="meta">Finance systems</div><h3>AP, AR, and billing</h3>
+      <p>Architected AP vendor-statement reconciliation, sales-tax review, check and EFT fraud review, subcontractor pay-application matching, and AR projections. Built usage-based equipment billing from telematics meter data, including a reconciliation that finds under-billed hours.</p></div>
+    <div class="card"><div class="meta">Governance</div><h3>Security and compliance</h3>
+      <p>Acting Information Security Officer for the CMMC Level 2 (NIST 800-171) program, and currently rolling out an in-house timekeeping platform to replace a vendor system. Cut or identified over $300K a year in vendor spend by replacing purchased tools with in-house software.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="role"><h3>Chief Technology Officer — RPMx Construction</h3><div class="when">Oct 2026 – present</div>
+    <ul class="work"><li>Leads technology strategy, architecture, security and compliance, software development, and AI.</li></ul></div>
+  <div class="role"><h3>Director of IT, Software Development, Infrastructure &amp; AI — RPMx Construction</h3><div class="when">Jul 2018 – Sep 2026</div>
+    <ul class="work"><li>Built and led the engineering and IT team with full authority over technology decisions, vendors, and budgets.</li></ul></div>
+  <div class="role"><h3>Software Development Director &amp; Principal Architect — EPE Innovations</h3><div class="when">Apr 2016 – Jul 2018</div>
+    <ul class="work"><li>Founded the team behind a partnership-tax engine carrying roughly 70% of a client's annual revenue; its rules-driven design shipped yearly tax-policy updates without recoding the engine.</li><li>Led 15 developers, data, and UX specialists across simultaneous projects.</li></ul></div>
+  <div class="role"><h3>Earlier</h3>
+    <ul class="work">
+      <li>Director of Software Development, Paradigm Tax (VC-backed Azure SaaS) · 2015–2016</li>
+      <li>Software Development Director, NCH Corporation (worldwide CRM; waterfall to agile) · 2014–2015</li>
+      <li>Technical Team Lead &amp; Systems Architect, Intermark Group · 2012–2014</li>
+      <li>Founder &amp; CEO, Smart Homes LLC (high-tech custom construction) · 2005–2012</li>
+      <li>Design Engineer &amp; Tech Lead, ADTRAN (carrier network hardware and embedded software) · 2000–2007</li>
+    </ul></div>
+</section>
+
+<section>
+  <h2>Open source &amp; research</h2>
+  <div class="grid">
+    <div class="card"><div class="meta">Python · PyPI</div><h3><a href="https://github.com/realdanielbyrne/acc_sdk">acc_sdk</a></h3><p>A Python SDK for the Autodesk Construction Cloud API, born from automating what the ACC web app can't.</p></div>
+    <div class="card"><div class="meta">Python · PyPI</div><h3><a href="https://github.com/realdanielbyrne/PEN-BEATS">PEN-BEATS</a></h3><p>A PyTorch Lightning implementation of N-BEATS and N-HiTS, extended with wavelet and autoencoder block families for parameter-efficient forecasting. Published as <code>lightningnbeats</code>.</p></div>
+    <div class="card"><div class="meta">Research</div><h3><a href="https://github.com/realdanielbyrne/FunctionalNetworksSFT">FunctionalNetworksSFT</a></h3><p>Selective LLM fine-tuning that uses ICA to find functional networks of neurons and freezes or trains them to reduce catastrophic forgetting.</p></div>
+    <div class="card"><div class="meta">Agents</div><h3><a href="https://github.com/realdanielbyrne/context-tree">context-tree</a></h3><p>Reorganizes an agent's linear trace into a summary-headed tree, so long sessions carry branch summaries and pull detail back on demand through MCP tools.</p></div>
+    <div class="card"><div class="meta">Tool</div><h3><a href="https://github.com/realdanielbyrne/PyAudiobookBinder">PyAudiobookBinder</a></h3><p>Binds many audio files into one audiobook with ffmpeg, picking smart defaults from metadata, durations, and file names.</p></div>
+    <div class="card"><div class="meta">JavaScript</div><h3><a href="https://github.com/realdanielbyrne/HoyKeys">HoyKeys</a></h3><p>A jQuery plugin that adds hot keys to any browser page.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <dl>
+    <dt>AI / ML</dt><dd class="chips"><span>Claude Agent SDK</span><span>MCP</span><span>LLM evaluation</span><span>Fine-tuning &amp; local inference</span><span>PyTorch</span><span>XGBoost</span></dd>
+    <dt>Languages &amp; architecture</dt><dd class="chips"><span>TypeScript</span><span>C#</span><span>Swift</span><span>Python</span><span>SQL</span><span>C/C++</span><span>REST / OpenAPI</span><span>Serverless</span><span>Offline sync</span><span>CI/CD</span></dd>
+    <dt>Platforms</dt><dd class="chips"><span>Azure (Functions, APIM, Entra)</span><span>AWS</span><span>.NET 9</span><span>Next.js / React</span><span>Node</span><span>SQL Server</span><span>Power BI</span></dd>
+  </dl>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <p><strong>M.S., Data Science (Machine Learning)</strong> — Southern Methodist University, 2020<br>
+  <strong>B.S., Computer Engineering</strong> — Mississippi State University, 1999</p>
+</section>
+
+<footer>© Daniel Byrne · Most of my professional work lives in private repositories; this page summarizes it at a high level.</footer>
+</main>
+</body>
+</html>
